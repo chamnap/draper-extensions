@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "bundler",                    "~> 1.6.2"
+gem "bundler",                    "~> 1.6.1"
 gem "rake",                       "~> 10.3.1"
 gem "rspec",                      "~> 2.14.1"
 gem "guard-rspec",                "~> 4.2.9"
