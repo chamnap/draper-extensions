@@ -1,6 +1,6 @@
 # Draper::Extensions
 
-TODO: Write a gem description
+Extends Draper by adding pagination and scoping methods
 
 ## Installation
 
@@ -18,9 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-This extension add three things on the `draper` gem:
+This extension extends these things on the `draper` gem:
 
-1. Add `#decorate` to `ActiveRecord::Relation`.
++ Add `#decorate` to `ActiveRecord::Relation`.
 
 ```ruby
 > listing = Listing.first
@@ -32,7 +32,7 @@ This extension add three things on the `draper` gem:
   [#<Event id: 1, name: "BugSmash", ar_listing_id: 1, created_at: "2014-05-10 12:43:16", updated_at: "2014-05-10 12:43:16">]>
 ```
 
-2. Add `#decorate` to `Kaminari::PaginatableArray`.
++ Add `#decorate` to `Kaminari::PaginatableArray`.
 
 ```ruby
 class Listing
@@ -54,7 +54,7 @@ end
   [#<Product id: 1, name: "Laptop", created_at: "2014-05-10 12:43:16", updated_at: "2014-05-10 12:43:16">]>
 ```
 
-2. Add `#decorates_scope` to `Draper::CollectionDecorator`.
++ Add `#decorates_scope` to `Draper::CollectionDecorator`.
 
 ```ruby
 # app/models/listing.rb
