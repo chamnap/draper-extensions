@@ -1,0 +1,15 @@
+services: mongodb
+language: ruby
+script: "bundle exec rake spec"
+rvm:
+  - 1.9.3
+  - 2.0.0
+  - 2.1.0
+  - 2.1.1
+env:
+  - CODECLIMATE_REPO_TOKEN=5cd40e471a2be2282170f06be821052b9c9f6a44961176068feb460dbb8d517d
+notifications:
+  email: false
+addons:
+  code_climate:
+    repo_token: 5cd40e471a2be2282170f06be821052b9c9f6a44961176068feb460dbb8d517d
