@@ -53,9 +53,13 @@ Dir[ File.join(DECORATORS, "*.rb") ].sort.each do |file|
   autoload name.camelize.to_sym, name
 end
 
-
 RSpec.configure do |config|
   config.filter_run focus: true
   config.run_all_when_everything_filtered = true
   config.treat_symbols_as_metadata_keys_with_true_values = true
+
+  config.before(:each) do
+    ActiveRecord::Base.descendants.each(&:delete_all)
+    Mongoid.purge!
+  end
 end
