@@ -1,4 +1,4 @@
-# Draper::Extensions
+# Draper::Extensions [![Build Status](https://travis-ci.org/chamnap/draper-extensions.svg?branch=master)](https://travis-ci.org/chamnap/draper-extensions) [![Code Climate](https://codeclimate.com/github/chamnap/draper-extensions.png)](https://codeclimate.com/github/chamnap/draper-extensions) [![Coverage Status](https://coveralls.io/repos/chamnap/draper-extensions/badge.png?branch=master)](https://coveralls.io/r/chamnap/draper-extensions?branch=master) [![Dependency Status](https://gemnasium.com/chamnap/draper-extensions.svg)](https://gemnasium.com/chamnap/draper-extensions)
 
 Extends Draper by adding pagination and scoping methods
 
