@@ -10,8 +10,8 @@ gem "codeclimate-test-reporter",  "~> 0.3.0"
 gem "pry",                        "~> 0.9.12.6"
 
 gem "sqlite3",                    "~> 1.3.9"
-gem "activerecord",               ">= 4.0.4"
-gem "mongoid",                    ">= 4.0.0.beta1"
+gem "activerecord",               ">= 4.0.13"
+gem "mongoid",                    ">= 4.0.1"
 gem "kaminari",                   ">= 0.15.1"
 gem "railties",                   ">= 4.0.4"
 
